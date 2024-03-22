@@ -1,0 +1,82 @@
+header{
+    border: red 1px solid;
+}
+header {
+    text-align: center;
+;
+}
+    
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Altura completa de la ventana */
+}
+
+.cartas {
+    display: flex;
+}
+
+.carta{
+    border: 1px solid #ccc;
+    border-radius: 12px; /* Esquinas redondeadas */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 350px;
+    height: 200px; /* Mismo ancho y alto para todos los cuadros */
+    box-sizing: border-box; /* Considerar el borde y el relleno dentro del ancho y alto */
+    box-shadow: 3px 3px 5px #a3a5ae; /* Sombra */
+    position: relative; /* Posición relativa para imágenes */
+}
+.carta img {
+    width: 50px; /* Ancho de la imagen */
+    height: auto; /* Altura automática */
+    position: absolute; /* Posición absoluta */
+    top: 10px; /* Distancia desde la parte superior */
+    left: 10px; /* Distancia desde la parte izquierda */
+}
+.carta h2{
+    margin-top: 0; /* Eliminar el margen superior */
+
+}
+.carta p {
+    margin-bottom: 0;
+}
+
+.centered-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cartateambuilder {
+    border-top: 2px solid #ea5353; /* Borde superior de color rojo (#ea5353) */
+}
+
+.orange-border-top {
+    border-top: 2px solid #fc9b1d; /* Borde superior de color naranja (#fc9b1d) */
+}
+
+.blue-border-top {
+    border-top: 2px solid #4a9dfc; /* Borde superior de color azul (#4a9dfc) */
+}
+
+.supervisor-bg {
+    background-color: #fff; /* Fondo blanco */
+    border-top: 2px solid #62dada; /* Borde superior de color cian (#62dada) */
+}
+#cartasupervisor{
+    background-color: #fff; /* Fondo blanco */
+    border-top: 2px solid #62dada; /* Borde superior de color cian (#62dada) */
+}
+
+#cartateambuilder, #cartakarma {
+    align-self: center;
+}
+
+#supervisor, #calculator{
+    align-self: center;
+}
